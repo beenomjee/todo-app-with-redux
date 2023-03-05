@@ -1,0 +1,5 @@
+export const CREATE_TODO = 'CREATE_TODO';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const DELETE_SELECTED_TODOS = 'DELETE_SELECTED_TODOS';
+export const DELETE_ALL_TODOS = 'DELETA_ALL_TODOS';
+export const GET_ALL_TODOS = 'GET_ALL_TODOS';
