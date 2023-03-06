@@ -13,7 +13,7 @@ const todo = ({ id, isSelected, message, editInputBox }) => {
     }
     return (
         <div className={styles.todo}>
-            <input type="checkbox" id={`checkbox${id}`} checked={isSelected} onClick={clickHandler} />
+            <input type="checkbox" id={`checkbox${id}`} checked={isSelected} onChange={clickHandler} />
             <label htmlFor={`checkbox${id}`}>{message}</label>
             <button onClick={editTodo}>&#128393;</button>
         </div>

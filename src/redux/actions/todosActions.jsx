@@ -10,6 +10,6 @@ export const updateTodo = (id, todo) => ({
     payload: { id, todo }
 })
 
-export const deleteAllTodo = () => { type: DELETE_ALL_TODOS }
+export const deleteAllTodo = () => ({ type: DELETE_ALL_TODOS })
 export const deleteSelectedTodo = () => ({ type: DELETE_SELECTED_TODOS })
 export const getAllTodos = () => ({ type: GET_ALL_TODOS })
